@@ -524,6 +524,77 @@ height: 286px;
     line-height: 26px;
 }
 
+
+/* Why choose us section */
+
+.why-choose-us{
+    margin-top: 100px;
+}
+
+.why-choose-us > h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.why-choose-us > p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px auto 48px auto;
+    width: 643px;
+}
+
+.services-container {
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 48%;
+    height: 284px;
+    padding: 32px;
+}
+
+.services h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 32px 0 16px 0;
+}
+
+.services p{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.box-2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.box-3{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
 /* Responsive for mobile devices */
 
 @media screen and (max-width:600px) {
@@ -747,6 +818,41 @@ height: 286px;
         width: 309px;
         font-size: 14px;
         line-height: 24px;
+    }
+
+    .why-choose-us{
+        margin-top: 24px;
+    }
+
+    .why-choose-us h1{
+     font-size: 20px;       
+    }
+
+    .why-choose-us > p{
+      font-size: 14px;  
+      width: 309px;
+      margin: 16px auto;
+    }
+
+    .services-container{
+        margin-top: 16px;
+        gap: 16px;
+    }
+
+    .services {
+        height: 310px;
+        width: 100%;
+        gap: 16px;
+        padding: 32px;
+    }
+
+    .services h3{
+        margin: 16px 0 -2px 0;
+        font-size: 20px;
+    }
+    .services p{
+        font-size: 14px;
+        width: 271px;
     }
 }
 
