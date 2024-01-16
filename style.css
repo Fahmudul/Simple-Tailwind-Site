@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+/* test border */
+.bor{
+    border: 1px solid red;
+}
+
+/* Header, navbar and banner section */
+header{
+    width: 85%;
+    height: auto;
+    margin: 52px auto;
+    
+
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-site-name{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.travel-site-name .website-logo{
+    width: 48px;
+    height: 56.008px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.travel-site-name h1{
+    margin-left: 17px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travel-site-name h1 span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+
+    
+}
+
+.nav-item{
+    display: block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:  #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-item:first-child a{
+    color: #FF5400;
+}
+
+nav ul{
+    display: flex;
+    gap: 44px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.banner{
+    background-image: url("Images/Group\ 13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    border-radius: 16px;
+    margin-top: 50px;
+    
+
+}
+
+.image{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.travel-data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-data-container h1{
+    text-align: center;
+    width: 600px;
+    height: 80px;
+    font-size: 64px;
+    color: #FFF;
+    font-weight: 800;
+
+}
+
+.travel-data-container p{
+    margin-top: 24px;
+    width: 676px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.input-option-find{
+    margin-top: 48px;
+    width: 800px;
+    height: 84px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.input-option-find > *{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+.input-option-find select, input, div{
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-option-find input{
+    padding-left: 15px;
+}
+
+.input-option-find div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.input-option-find button{
+    display: flex;
+    align-items: center;
+    gap:9px;
+    border: none;
+    justify-content: center;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Responsive for mobile devices */
+
+@media screen and (max-width:600px) {
+    header{
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .header-container{
+        height: 65px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .travel-site-name{
+        gap: 10px;
+    }
+
+    .travel-site-name .website-logo{
+
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .travel-site-name .website-logo img{
+        width: 100%;
+    }
+
+    .travel-site-name h1{
+        margin-left: 1px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+    }
+
+    .travel-site-name h1 span{
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .banner{
+        margin: 19px auto;
+        height: 483px;
+        background-position: center;
+        object-fit: cover;
+
+    }
+
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image .travel-data-container{
+        width: 95%;
+        height: 90%;
+        
+    }
+
+    .travel-data-container h1{
+        width: 210px;
+        height: 30px;
+        font-size: 22px;
+    }
+
+    .travel-data-container p{
+        margin-top: 9px;
+        /* border: 1px solid red; */
+        width: 304px;
+        height: 63px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+
+    }
+
+    .input-option-find{
+        margin-top: 32px;
+        width: 287px;
+        height: 288px;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .input-option-find > *{
+        width: 255px;
+        height: 52px;
+    }
+
+    
+    .input-option-find input{
+        padding: 0 15px;
+    }
+    
+    
+}
