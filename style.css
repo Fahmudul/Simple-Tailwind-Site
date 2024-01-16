@@ -594,6 +594,117 @@ height: 286px;
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* deals-discount-section */
+
+.deals-discount-section{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.deals-discount-section h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-discount-section > p{
+    width: 643px;
+    margin: 24px auto 48px auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.discount-box{
+    height: 550px;
+    width: 100%;
+    /* background-image: url("Images/Group\ 39.png"); */
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 24px;
+
+}
+
+.discount-bg-1{
+    background-image: url("Images/Group\ 39.png");    
+}
+.discount-bg-2{
+    background-image: url("Images/Group\ 40.png");
+    justify-content: flex-start;
+}
+
+.discount-bg-2 .discount-box-details{
+    margin-left: 57px;
+
+}
+.discount-bg-3{
+    background-image: url("Images/Group\ 39.png");
+}
+
+.discount-box-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 57px;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 50px;
+    
+}
+
+.discount-box-details h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.discount-box-details p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.discount-box-details button{
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.discount-box-details h5{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.time-place {
+    display: flex;
+    gap: 24px;
+}
+
+.time-place div{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
 
 /* Responsive for mobile devices */
 
@@ -853,6 +964,76 @@ height: 286px;
     .services p{
         font-size: 14px;
         width: 271px;
+    }
+
+    .deals-discount-section{
+        margin-top: 24px;
+    }
+
+    .deals-discount-section p{
+        margin-top: 16px;
+        width: 309px;
+    }
+
+    .discount-box{
+        margin-top: 16px;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .discount-box-details{
+        margin: 0 auto;
+        width: 90%;
+        height: 76%;
+        margin-bottom: 16px;
+        padding: 26px;
+
+    }
+
+    .time-place {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .time-place > *{
+        width: 50%;
+    }
+
+    .time-place div:first-child{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .discount-box-details h4{
+        font-size: 20px;
+        margin-top: 18px;
+    }
+
+    .discount-box-details p{
+        width: 95%;
+        text-align: left;
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .discount-box-details h5{
+        margin: 12px 0 25px 0;
+        font-size: 16px;
+
+    }
+
+    .discount-box-details button{
+        font-size: 18px;
+        font-weight: 700;
+        width: 130px;
+        height: 40px;
+    }
+    
+    .discount-bg-2 .discount-box-details{
+        margin: 0px auto 16px auto;
+    
     }
 }
 
