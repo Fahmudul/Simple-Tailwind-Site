@@ -387,7 +387,7 @@ main{
     line-height: normal;
 }
 
-.p
+
 
 .popular-tour .image{
     /* width: 50%; */
@@ -400,6 +400,128 @@ main{
 .popular-tour .image img{
     width: 100%;
     height: 100%;
+}
+
+
+/* Place section */
+.place{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    
+}
+
+
+.place-container{
+    /* margin-top: 140px; */
+    height: 80%;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aria{
+    border-radius: 16px;
+}
+
+.aria div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%); 
+    height: 100%;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.area-1{
+    background-image: url("Images/Rectangle\ 5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 49%;
+height: 300px;
+    
+}
+.area-2{
+    background-image: url("Images/Rectangle\ 8.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    width: 49%;
+    height: 300px;
+
+}
+.area-3{
+    background-image: url("Images/Rectangle\ 6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 33%;
+    
+    height: 286px;
+}
+.area-4{
+    background-image: url("Images/Rectangle\ 7.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 39.5%;
+height: 286px;
+    }
+
+.area-5{
+    background-image: url("Images/Rectangle\ 9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 24%;
+
+height: 286px;
+}
+
+.area-6{
+    background-image: url("Images/Rectangle\ 11.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 40%;
+    height: 300px; 
+}
+.area-7{
+    background-image: url("Images/Rectangle\ 10.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 58%;
+    height: 300px;
+}
+
+.place h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.place p{
+    margin: 24px auto 48px auto;
+    text-align: center;
+    width: 690px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 /* Responsive for mobile devices */
@@ -597,4 +719,30 @@ main{
         margin-top: 24px;
         font-size: 20px;
     }
+
+    .aria {
+        width: 100%;
+        height: 175px;
+        
+    }
+    .aria div{
+        font-weight: 700;
+    }
+
+    .place-container{
+        gap: 16px;
+    }
+
+    .place h1{
+        font-size: 20px;
+
+    }
+
+    .place p{
+        margin: 16px auto;
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
+
