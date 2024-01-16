@@ -676,7 +676,7 @@ height: 286px;
     line-height: 26px;
 }
 
-.discount-box-details button{
+.discount-box-details button, .mountain-details button{
     width: 150px;
     height: 52px;
     border-radius: 8px;
@@ -704,6 +704,107 @@ height: 286px;
     align-items: center;
     gap: 3px;
 }
+.button{
+    margin: 48px auto 100px auto;
+    width: 210px;
+
+}
+.packages{
+    border: none;
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Mountain section */
+
+.mountain{
+
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mountain-details{
+    width: 48%;
+    height: 100%;
+}
+
+.mountain-details h1{
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+
+}
+
+.mountain-details p{
+    width: 532px;
+    margin: 24px 0;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.mountain-details ul{
+    /* margin-left: 20px; */
+}
+
+.mountain-details ul li{
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 16px 0 16px 18px;
+}
+
+.mountain-details button{
+    margin-top: 32px;
+}
+
+.mountain-img{
+
+    border-radius: 16px;
+    background-image: url("Images/Group\ 40089.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+
+
+}
+
+.bg h3{
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
 
 
 /* Responsive for mobile devices */
@@ -1024,7 +1125,7 @@ height: 286px;
 
     }
 
-    .discount-box-details button{
+    .discount-box-details button, .mountain-details button{
         font-size: 18px;
         font-weight: 700;
         width: 130px;
@@ -1034,6 +1135,69 @@ height: 286px;
     .discount-bg-2 .discount-box-details{
         margin: 0px auto 16px auto;
     
+    }
+
+    .button{
+        width: 180px;
+    }
+    .packages{
+        font-size: 17px;
+
+    }
+
+    .mountain{
+        flex-direction: column;
+        height:600px;
+    }
+
+    .mountain-details{
+        width: 100%;
+        height: 80%;
+    }
+
+    .mountain-details h1{
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mountain-details p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .mountain-details ul{
+        margin-left: 15px;
+    }
+    
+    .mountain-details ul li{
+        margin: 16px 0 0 0;
+        /* margin: 16px auto; */
+        width: 90%;
+        font-size: 14px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+
+    }
+
+    .mountain-details button{
+        margin-top: 24px;
+        width: 174px;
+        height: 52px;
+    }
+
+    .mountain-img{
+        margin-top: 24px;
+        width: 100%;
+        height: 320px;
+    }
+
+    .bg h3{
+        font-size: 20px;
     }
 }
 
