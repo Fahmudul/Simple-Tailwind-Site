@@ -729,6 +729,10 @@ height: 286px;
         font-weight: 700;
     }
 
+    .place{
+        margin-top: 24px;
+    }
+
     .place-container{
         gap: 16px;
     }
