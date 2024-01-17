@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
 
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +11,6 @@
 
 }
 
-/* test border */
-.bor{
-    border: 1px solid red;
-}
 
 /* Header, navbar and banner section */
 header{
@@ -876,6 +875,37 @@ height: 286px;
     width: 55%;
     height: 433px;
     border-radius: 16px;
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+    background-color: #FF5400;
+    color: white;
+    border-radius: 16px;
+    width: 324px;
+    height: 120px;
+    bottom: 48px;
+    right: 8px;
+    transform: rotate(-19.628deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}   
+
+.discount p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.discount h3{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 
@@ -1335,17 +1365,29 @@ height: 286px;
     }
 
     .newsletter-image{
-        
         margin-top: 16px;
         width: 100%;
     }
-    .footer{
 
-    }
-    .footer .travel-site-name{
-    }
+    .discount{
+        position: absolute;
+        width: 214.023px;
+        height: 79.268px;
+        bottom: 32px;
+        right: 10px;
+        border-radius: 10px;
 
-    
+
+    }    
+
+    .discount p{
+        font-size: 16px;
+        
+    }
+    .discount h3{
+        font-size: 21.138px;
+        
+    }
 
     .footer p{
         width: 287px;
